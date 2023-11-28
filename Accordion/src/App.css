@@ -1,0 +1,35 @@
+.widgetShow {
+	width: auto;
+	height: 230px;
+	overflow: scroll;
+	transition: height 0.3s ease;
+	padding: 10px;
+	background-color: rgb(247, 247, 247);
+}
+.widgetHide {
+	height: 0px;
+	transition: height 0.3s ease;
+}
+.header {
+	padding: 5px;
+	background-color: rgb(173, 173, 173);
+	font: white;
+	margin: 2px;
+}
+.widgetWrapper {
+	width: 450px;
+	overflow: scroll;
+	border: 1px solid gray;
+	cursor: pointer;
+}
+.App {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loader {
+	height: 10px;
+	background-color: green;
+	transition: width 30ms;
+}
