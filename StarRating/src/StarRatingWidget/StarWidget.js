@@ -32,7 +32,7 @@ function StarWidget() {
 					/>
 				))}
 			</div>
-			{rating > 0 && rating + 1}
+			{rating > 0 && rating}
 		</div>
 	);
 }
