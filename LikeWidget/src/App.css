@@ -1,0 +1,28 @@
+.App {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button {
+	border: 2px solid gray;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.buttonNormal:hover {
+	padding: 10px 20px;
+	border: 2px solid red;
+}
+.buttonNormal:hover > * {
+	color: red;
+}
+.buttonSuccess {
+	background-color: red;
+}
+.buttonSuccess > * {
+	color: white;
+}
