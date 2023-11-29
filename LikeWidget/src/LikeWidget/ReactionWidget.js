@@ -20,7 +20,7 @@ function App() {
 				className={`button ${isLiked ? "buttonSuccess" : "buttonNormal"}`}
 				onClick={handleClick}>
 				{showLoader ? <SpinnerIcon /> : <HeartIcon />}
-				<span>Like</span>
+				<span>Like{isLiked ? "d" : ""}</span>
 			</button>
 		</div>
 	);
