@@ -1,0 +1,36 @@
+.App {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+* {
+	transition: all 0.3s ease;
+}
+
+.board-layout {
+	display: grid;
+	gap: 8px;
+	--size: 60px;
+	border: 3px solid black;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.board-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: larger;
+	cursor: pointer;
+}
+
+.flipped {
+	background-color: rgb(217, 217, 217);
+}
+.unflipped {
+	background-color: white;
+	border: none;
+}
