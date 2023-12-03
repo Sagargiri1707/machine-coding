@@ -1,0 +1,28 @@
+.App {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.list-wrapper {
+	min-height: 400px;
+	border: 1px solid gray;
+	width: auto;
+	display: flex;
+
+	padding: 10px;
+	margin: 10px;
+}
+.list {
+	height: fit-content;
+	width: 200px;
+	padding: 4px;
+	margin: 4px;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.styles-flex-center {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+}
